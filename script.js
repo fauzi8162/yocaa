@@ -61,8 +61,8 @@ document.querySelector(".tombol").addEventListener('click', function() {
                     if (result.isConfirmed) {
                         var nPass = result.value
                         console.log(nPass);
-                        // if (nPass == 753032507) {
-                        if (nPass == 0) {
+                        if (nPass == 753032507) {
+                        //if (nPass == 0) {
                             Swal.fire({
                                 title: '',
                                 text: 'Welcome Cacaa, kamu berhasil login',
